@@ -1,19 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Freediving with My Girlfriend</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Anne's Blog</h1>
-    
-    <h2>About</h2>
-    <p>Hello! This is a blog I will be creating for my girlfriend.
-        She is a professional free-diver so this will mainly be
-        for her diving adventures and travels! (also good practice for me.)
-    </p>
-</body>
-</html>
+  <header>
+    <div class="container">
+      <h1>Freediving with My Girlfriend</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#adventures">Adventures</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>Welcome to our freediving blog! We love to explore the underwater world and share our adventures with you. Follow along as we dive deep into the depths and discover the beauty of the ocean. </p>
+      </div>
+    </section>
+    <section id="adventures" class="section">
+      <div class="container">
+        <h2>Our Adventures</h2>
+        <div class="adventure-grid">
+          <div class="adventure">
+            <img src="image1.jpg" alt="Underwater photo">
+            <h3>Diving in the Caribbean</h3>
+            <p>We had an amazing time diving in the crystal clear waters of the Caribbean. The sea life was breathtaking!</p>
+          </div>
+          <div class="adventure">
+            <img src="image2.jpg" alt="Underwater photo">
+            <h3>Snorkeling in Hawaii</h3>
+            <p>The colorful fish and coral in Hawaii were a sight to behold. We can't wait to go back and explore more.</p>
+          </div>
+          <div class="adventure">
+            <img src="image3.jpg" alt="Underwater photo">
+            <h3>Exploring the Mediterranean</h3>
+            <p>The Mediterranean sea was full of surprises, including ancient wrecks and vibrant marine life. We can't wait to dive in again.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Get in Touch</h2>
+        <p>Have a question or want to join us on an adventure? We'd love to hear from you!</p>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+</form>
